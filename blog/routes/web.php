@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\CustomerController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +22,10 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('customers', [CustomerController::class, 'index'])->name('customer.index');
+Route::get('customers/create', [CustomerController::class, 'create'])->name('customer.create');
+Route::post('customers', [CustomerController::class, 'store'])->name('customer.store');
+Route::get('customers/{id}/edit', [CustomerController::class, 'edit'])->name('customer.edit');
+Route::put('customers/{id}/update', [CustomerController::class, 'update'])->name('customer.update');
+Route::delete('customers', [CustomerController::class, 'destroy'])->name('customer.destroy');
