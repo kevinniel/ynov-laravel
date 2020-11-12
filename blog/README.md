@@ -12,7 +12,7 @@
 - paris sportif
     - étudiants : victor, bertin, aymeric, antoine, mathias
     - **groupe 1** : victor, aymeric, mathias
-    - **groupe 2** : bertin, antoine
+    - **groupe 2** : bertyn (-1pt pour orthographe), antoine
 - ecommerce
     - étudiants : gracieux, romain, ilyas, kyllian, jules, aya, alexis
     - **groupe 1** : romain, kyllian, aya
