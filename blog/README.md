@@ -11,14 +11,21 @@
 
 - paris sportif
     - étudiants : victor, bertin, aymeric, antoine, mathias
-    - groupe 1 : victor, aymeric, mathias
-    - groupe 2 : bertin, antoine
+    - **groupe 1** : victor, aymeric, mathias
+    - **groupe 2** : bertin, antoine
 - ecommerce
     - étudiants : gracieux, romain, ilyas, kyllian, jules, aya, alexis
-    - groupe 1 : romain, kyllian, aya
-    - groupe 2 : gracieux, ilyas, jules, alexis
+    - **groupe 1** : romain, kyllian, aya
+    - **groupe 2** : gracieux, ilyas, jules, alexis
     
 ## fonctionnalités attendues :
+
+### généralités
+- GIT obligatoire
+- Déploiement HEROKU obligatoire
+- mentions légales
+- RGPD
+
 
 ### paris sportif
 - gestion utilisateurs
@@ -31,8 +38,6 @@
 - algo de gestion des côtes automatique pour certains paris : option activable ou non en fonction des paris créés
 - gestion des factures de dépôt d'argent en PDF
 - gestion d'un affichage par utilisateur de statistiques gains / pertes ET exportable en PDF par date
-- mentions légales
-- RGPD
 
 ### ecommerce
 - gestion utilisateurs
@@ -45,5 +50,4 @@
 - gestion de regroupements de produits mis en vente
 - gestion de déclinaison de produits par attributs spécifiques (couleur, taille, etc...)
 - gestion des paiements via Stripe
-- mentions légales
-- RGPD
+
