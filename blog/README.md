@@ -21,7 +21,7 @@
 ## fonctionnalités attendues :
 
 ### généralités
-- GIT obligatoire
+- GIT obligatoire (pensez au readme !)
 - Déploiement HEROKU obligatoire
 - mentions légales
 - RGPD
@@ -51,3 +51,9 @@
 - gestion de déclinaison de produits par attributs spécifiques (couleur, taille, etc...)
 - gestion des paiements via Stripe
 
+## rendu
+Par groupe : 
+- rappel du sujet
+- un lien GIT (publique)
+- lien vers le site heroku en prod et fonctionnel
+- des accès par "type" d'utilisateur pour me permettre de tout tester sans m'inscrire
